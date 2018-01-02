@@ -22,9 +22,7 @@ export class App extends React.Component<undefined, { clickPosition: string }> {
                     clickPosition: 'inside'
                 });
             }}>
-                <div className="demo-wrapper">
-                    <div>Inside</div>
-                </div>
+                <div>Inside</div>
             </ClickOutside>
             <div className="status-zone">Click Positon: {this.state.clickPosition}</div>
         </div>

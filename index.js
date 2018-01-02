@@ -1,0 +1,1 @@
+import {ClickOutside} from "./src"
